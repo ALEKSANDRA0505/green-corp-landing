@@ -1,0 +1,85 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #213053;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.header__logo{
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #213053;
+}
+
+header a{
+    font-size: 15;
+    font-weight: 600;
+    margin-right: 25px;
+}
+
+button{
+    font-family: 'Raleway', sans-serif; /*задаем семейсиво шрифтов и размер*/
+    font-size: 15px;
+    color: #fff;/*цвет текста*/
+    background-color: #23a030;/*цвет кнопки*/
+    border: none;/*убираем границу у кнопки*/
+    border-radius: 15px;/*скругления и радиус скругления(чем больше, тем более скругленная)*/
+    cursor: pointer;/*принаведении на кнопку мышка будет в виде указателя*/
+    box-shadow: 0 16px 36px rgb( 52 213 68 / 22%);/*рисуется тень 0 - отступ по горизонтали 
+    16 - отступ по вертикали
+    36 - размытость тени*/
+}
+
+.about__image{
+    width: 500px;
+}
+
+.about__sun-image{
+    width: 100px;
+    height: 100px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    /*padding-left: 10px;
+    padding-right: 10px;*/
+    background: url('img/back.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about__h1{
+    font-size: 70px;
+    line-height: 76px;
+}
+
+.about__p{
+    font-size: 18px;
+    line-height: 30px;
+    opacity: 0.8;
+}
+
+.about__button{
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 20 px 25 px;
+    margin-top: 20px;
+}
+
+.about__info{
+    max-width: 550px;
+}
